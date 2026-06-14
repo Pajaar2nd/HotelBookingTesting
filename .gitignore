@@ -1,0 +1,8 @@
+# Ignore database folder
+database/
+
+# Optional: tambahkan file dan folder lain yang ingin diabaikan
+# node_modules/
+# .env
+# .DS_Store
+# Thumbs.db
