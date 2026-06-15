@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Hotel-Booking-System/**/*.php",
+      "use": "@vercel/php"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/Hotel-Booking-System/index.php" },
+    { "src": "/(.*)", "dest": "/Hotel-Booking-System/$1" }
+  ]
+}
